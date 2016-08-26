@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_user"
+        android:icon="@drawable/ic_person_outline_grey_800_18dp"
+        android:orderInCategory="99"
+        android:title="@string/action_users"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/action_book"
+        android:icon="@drawable/ic_library_books_grey_800_18dp"
+        android:orderInCategory="98"
+        android:title="@string/action_book"
+        app:showAsAction="always"></item>
+</menu>
